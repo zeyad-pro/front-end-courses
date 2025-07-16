@@ -5,14 +5,9 @@ export default async function Course() {
 
   return (
     <div
-      className="min-h-screen flex flex-col items-center pt-32 pb-20"
-      style={{
-        backgroundImage: "URL('/imgs/wallpapers/5.png')",
-        backgroundSize: "100%",
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
-        animation: "gradientShift 8s ease-in-out infinite",
-      }}
+      className="min-h-screen flex flex-col items-center pt-32 pb-20 sm:bg-center   bg-cover 
+             bg-[url('/imgs/wallpapers/1(1).png')] 
+             sm:bg-[url('/imgs/wallpapers/1.png')]"
     >
       {/* عنوان الصفحة */}
       <h1 className="text-yellow-400 text-5xl font-bold">الكورسات</h1>

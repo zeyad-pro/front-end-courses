@@ -12,13 +12,9 @@ export default async function Home() {
 
 
   return (
-    <div className="main pt-52"       style={{
-        backgroundImage: "URL('/imgs/wallpapers/5.png')",
-        backgroundSize: "100%",
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
-        animation: "gradientShift 8s ease-in-out infinite",
-      }}>
+    <div className="main pt-52 sm:bg-center   bg-cover 
+             bg-[url('/imgs/wallpapers/1(1).png')] 
+             sm:bg-[url('/imgs/wallpapers/1.png')]"  >
 <span className="invisible-span">ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ</span>
 
       <h1

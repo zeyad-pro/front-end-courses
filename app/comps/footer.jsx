@@ -1,5 +1,5 @@
 "use client";
-import Link from "next/link";
+// import Link from "next/link";
 import { Lalezar } from "next/font/google";
 
 const lalezar = Lalezar({ subsets: ["arabic"], weight: "400" });
