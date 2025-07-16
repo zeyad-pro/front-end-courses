@@ -1,6 +1,6 @@
 import { Lalezar, Cairo, Tajawal, Almarai } from "next/font/google";
 import Parts from "./comps/parts";
-
+import Link from "next/link";
 const lalezar = Lalezar({ subsets: ["arabic"], weight: "400" });
 const cairo = Cairo({ subsets: ["arabic"], weight: "800" });
 const tajawal = Tajawal({ subsets: ["arabic"], weight: "800" });
@@ -12,7 +12,8 @@ export default async function Home() {
 
 
   return (
-    <div className="main pt-52" style={{ backgroundColor: "#0a1f44" }}>
+    <div className="main pt-52" style={{ backgroundImage: "URL('/imgs/wallpapers/5.png')" ,
+  backgroundPosition: 'center',}}>
 <span className="invisible-span">ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ</span>
 
       <h1
@@ -38,17 +39,17 @@ export default async function Home() {
         الانترنت
       </h1>
        <h1
-       style={{color: '#a6a2a2'}}
+       style={{color: '#eeeeeeff'}}
         className={`text-center text-1xl animate-from-bottom-3 sm:text-3xl md:text-3xl ${tajawal_nb.className} gap-1`}
       >
       متوفر اكثر من 500 كورس مع متابعه مستمره 24 ساعه
       </h1>
 
       <div className="flex flex-col md:flex-row justify-between items-center gap-3 w-auto my-13">
-        <button className="btn animate-from-right-3" style={{ height: 50 }}>
+        <Link href={'/courses'} className="btn animate-from-right-3" style={{ height: 50 }}>
           ابدا الان
-        </button>
-        <button
+        </Link>
+        <Link href={'/courses'} 
           className="btn-2  animate-from-left-3"
           style={{
             height: 50,
@@ -57,7 +58,7 @@ export default async function Home() {
           }}
         >
           الكورسات
-        </button>
+        </Link>
       </div>
 
       {/* ///////////////////////////////////////////////////////////////////////////////// */}

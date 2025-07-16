@@ -7,7 +7,7 @@ const lalezar = Lalezar({ subsets: ["arabic"], weight: "400" });
 export default function Footer() {
   return (
     <div
-      style={{ backgroundColor: "#ecb500ff", height: 500, }}
+      style={{ backgroundColor: "#ecb500ff", height: 300 }}
       className="flex flex-col z-100  md:flex-row justify-between md:p-10 p-4  w-full"
     >
       <div className="flex  w-full f-link-hov-2 pointer justify-center md:justify-start">
@@ -30,7 +30,7 @@ export default function Footer() {
       </div>
       <div
         className="flex flex-col md:-translate-x-0  justify-evenly align-items-center"
-        style={{ width: "100%",height: 400 }}
+        style={{ width: "100%",height: 200 }}
       >
         <a className="text-h5 f-link-hov" href="/">
           الرئيسيه
@@ -44,7 +44,7 @@ export default function Footer() {
       </div>{" "}
       <div
         className="flex flex-col md:translate-x-5 justify-evenly align-items-center"
-        style={{ width: "100%" ,height: 400}}
+        style={{ width: "100%" ,height: 200}}
       >
         <a className="text-h5 f-link-hov" href="/">
           شروط الاستخدام

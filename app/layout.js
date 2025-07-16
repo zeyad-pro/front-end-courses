@@ -23,24 +23,26 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" dir="rtl">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased` }
-        style={{backgroundColor: '#0a1f44'}}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar/>
-
-
-
-
-
-
-        {children}
-
-
-
-
-
-
-        <Footer/>
+<div style={{ backgroundImage: "URL('/imgs/wallpapers/5.png')" ,
+  backgroundPosition: 'center',}}>
+          <Navbar/>
+  
+  
+  
+  
+  
+  
+          {children}
+  
+  
+  
+  
+  
+  
+          <Footer/>
+</div>
       </body>
     </html>
   );

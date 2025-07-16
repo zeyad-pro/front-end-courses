@@ -44,7 +44,7 @@ export default function Navbar() {
         <img
           src="/imgs/d-removebg-preview.png"
           alt="logo"
-          className=""
+          className="md:mr-20"
           style={{ width: 47, height: 47 }}
         />
         <h2
