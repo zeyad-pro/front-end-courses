@@ -10,7 +10,7 @@ export default function Footer() {
       style={{ backgroundColor: "#ecb500ff", height: 300 }}
       className="flex flex-col z-100  md:flex-row justify-between md:p-10 p-4  w-full"
     >
-      <div className="flex  w-full f-link-hov-2 pointer justify-center md:justify-start">
+      <div className="flex pb-5 md:pb-0  w-full f-link-hov-2 pointer justify-center md:justify-start">
         <img
           src="/imgs/d-removebg-preview.png"
           alt="logo"
